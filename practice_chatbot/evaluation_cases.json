@@ -1,0 +1,42 @@
+[
+  {"text": "Привет", "expected": "greeting"},
+  {"text": "Здравствуйте, бот", "expected": "greeting"},
+  {"text": "Добрый день", "expected": "greeting"},
+  {"text": "Доброе утро!", "expected": "greeting"},
+
+  {"text": "Когда начинается практика?", "expected": "practice_dates"},
+  {"text": "Назови даты практики", "expected": "practice_dates"},
+  {"text": "Какой период прохождения?", "expected": "practice_dates"},
+  {"text": "Когда она заканчивается?", "expected": "practice_dates"},
+
+  {"text": "Сколько часов практики?", "expected": "practice_hours"},
+  {"text": "Какая длительность в неделях?", "expected": "practice_hours"},
+  {"text": "Какова учебная нагрузка?", "expected": "practice_hours"},
+
+  {"text": "Где проходит практика?", "expected": "practice_place"},
+  {"text": "Назови место прохождения", "expected": "practice_place"},
+  {"text": "На какой кафедре я прохожу практику?", "expected": "practice_place"},
+
+  {"text": "Какие задания надо выполнить?", "expected": "practice_tasks"},
+  {"text": "Перечисли кейсы", "expected": "practice_tasks"},
+  {"text": "Что нужно сделать на практике?", "expected": "practice_tasks"},
+  {"text": "Какие виды работ предусмотрены?", "expected": "practice_tasks"},
+
+  {"text": "Что нужно сдать?", "expected": "documents"},
+  {"text": "Какие документы прикрепить?", "expected": "documents"},
+  {"text": "Нужен ли аттестационный лист?", "expected": "documents"},
+  {"text": "Какой пакет отправить в ЭИОС?", "expected": "documents"},
+
+  {"text": "Где лежит код бота?", "expected": "repository"},
+  {"text": "Дай ссылку на GitHub", "expected": "repository"},
+  {"text": "Покажи репозиторий программы", "expected": "repository"},
+
+  {"text": "Что ты умеешь?", "expected": "help"},
+  {"text": "Помощь", "expected": "help"},
+
+  {"text": "Спасибо", "expected": "farewell"},
+  {"text": "До свидания", "expected": "farewell"},
+
+  {"text": "Расскажи анекдот", "expected": "fallback"}
+]
+
